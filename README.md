@@ -26,9 +26,9 @@ New accounts are customers. For a production admin, promote a user’s `role` to
 
 ## Deploy
 
-### GitHub Pages + Render
+### GitHub Actions + Render
 
-Push this repository to GitHub. The included Pages workflow builds and deploys the React storefront when `main` is updated (enable GitHub Pages with **GitHub Actions** as the build source). The Express API and static frontend can be deployed through the included `render.yaml`; configure the database and origin variables in Render. Update the React API base URL if hosting the API on a separate domain.
+The included GitHub Actions workflow builds the React storefront on each push and saves `client/dist` as an artifact. The Express API and static frontend can be deployed through the included `render.yaml`; configure the database and origin variables in Render. Update the React API base URL if hosting the API on a separate domain.
 
 ### Streamlit Community Cloud
 
