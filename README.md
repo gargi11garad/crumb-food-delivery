@@ -12,7 +12,7 @@ npm install
 npm run dev
 ```
 
-React runs at `http://localhost:5173`; the API runs at `http://localhost:4000`. To start Streamlit instead, create a Python environment, run `pip install -r requirements.txt`, then `streamlit run app.py`. Set `API_URL` to the reachable Express API URL to enable API-backed account and order operations. Without the API, Streamlit displays sample kitchens.
+React runs at `http://localhost:5173`; the API runs at `http://localhost:4000`. To start Streamlit instead, create a Python environment, run `pip install -r requirements.txt`, then `streamlit run app.py`. Set `API_URL` to the reachable Express API URL to enable API-backed account and order operations. Without the API, Streamlit uses sample kitchens and session-only demo orders.
 
 ## REST API
 
