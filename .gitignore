@@ -1,0 +1,7 @@
+node_modules/
+.pnpm-store/
+.python-packages/
+client/dist/
+.env
+__pycache__/
+.streamlit/secrets.toml
